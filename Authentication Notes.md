@@ -18,3 +18,18 @@ Salting:
 - Salt rounds: Can salt the password and then run it through the hash functions. You can do this again. And again. Each time is a round.
 
 - Makes password even more secure. 
+
+Cookies:
+- Example:
+    - Browser makes GET request to server.
+    - Server makes a response (sends JS, CSS, HTML files to display website, etc.)
+    - Browser makes an action (POST request) that in turn causes a response from the server in which the server creates a cookie.
+    - Server sends cookie and tells browser to save it. 
+    - Next time the browser makes a GET request to that server, it sends along the cookie for the server to remember the action that was made.
+
+Sessions: 
+- A session is the amount of time in which the browser and server are in engagement. 
+
+- Session begins at log in and ends at log out.
+
+Passport.JS:
