@@ -33,3 +33,17 @@ Sessions:
 - Session begins at log in and ends at log out.
 
 Passport.JS:
+- Will use these NPM packages:
+    - passport
+    - passport-local
+    - passport-local-mongoose
+    - express-session 
+
+OAuth:
+- Can delegate task of encryption and adding extra security to google/facebook/etc.
+- Can have users sign in using Google/Facebook/Twitter
+- Can request certain information from user's google account and also read/read + write access. 
+- OAuth will allow users to revoke our website's access via a third party website.
+- OAuth makes it so users will log in on the third party website they trust such as google/facebook and then accepts or refuses permissions that our website asks for.
+
+- Auth code is like a ticket to gain access once. An Access Token is like a year pass that allows us to access information that is stored on that third party website.
